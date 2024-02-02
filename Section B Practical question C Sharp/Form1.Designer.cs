@@ -58,15 +58,19 @@
             // textBox1
             // 
             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(254, 105);
+            this.textBox1.Location = new System.Drawing.Point(185, 104);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(203, 36);
+            this.textBox1.Size = new System.Drawing.Size(337, 36);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Turquoise;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(267, 190);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -74,14 +78,14 @@
             this.button1.Size = new System.Drawing.Size(183, 30);
             this.button1.TabIndex = 2;
             this.button1.Text = "Add Word";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(320, 264);
+            this.label2.Location = new System.Drawing.Point(329, 278);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 27);
             this.label2.TabIndex = 3;
@@ -91,10 +95,10 @@
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(132, 304);
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(52, 304);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(122, 19);
+            this.label3.Size = new System.Drawing.Size(147, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Select a Word";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -103,21 +107,21 @@
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(136, 332);
+            this.comboBox1.Location = new System.Drawing.Point(56, 332);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 27);
+            this.comboBox1.Size = new System.Drawing.Size(231, 31);
             this.comboBox1.TabIndex = 5;
             // 
             // radioButton1
             // 
             this.radioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(136, 365);
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(56, 365);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(99, 23);
+            this.radioButton1.Size = new System.Drawing.Size(112, 27);
             this.radioButton1.TabIndex = 6;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Remove";
@@ -128,10 +132,10 @@
             // 
             this.radioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton2.Location = new System.Drawing.Point(423, 365);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(99, 23);
+            this.radioButton2.Size = new System.Drawing.Size(112, 27);
             this.radioButton2.TabIndex = 9;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Remove";
@@ -142,43 +146,45 @@
             // 
             this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(423, 332);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(151, 27);
+            this.comboBox2.Size = new System.Drawing.Size(218, 31);
             this.comboBox2.TabIndex = 8;
             // 
             // label4
             // 
             this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(419, 304);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(172, 19);
+            this.label4.Size = new System.Drawing.Size(211, 23);
             this.label4.TabIndex = 7;
             this.label4.Text = "Select another word";
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.Turquoise;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(254, 449);
+            this.button2.Location = new System.Drawing.Point(254, 440);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(213, 37);
             this.button2.TabIndex = 10;
             this.button2.Text = "Concatenate";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label5
             // 
             this.label5.BackColor = System.Drawing.SystemColors.Control;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(0, 532);
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(0, 517);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(709, 59);
+            this.label5.Size = new System.Drawing.Size(709, 74);
             this.label5.TabIndex = 11;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
